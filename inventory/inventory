@@ -1,0 +1,9 @@
+[masters]
+10.144.41.100
+
+[etcd:children]
+masters
+
+[nodes]
+10.144.41.101
+10.144.41.102
